@@ -18,3 +18,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
 
 `pack/<osm-facility-id>.json` — an array of course objects (one per
 course the facility hosts) in Looper's vendor-neutral course schema.
+
+Place names include data from Overture Maps Foundation, licensed under
+CDLA-Permissive 2.0 (https://cdla.dev/permissive-2-0/).
+© Overture Maps Foundation contributors.
