@@ -22,3 +22,12 @@ course the facility hosts) in Looper's vendor-neutral course schema.
 Place names include data from Overture Maps Foundation, licensed under
 CDLA-Permissive 2.0 (https://cdla.dev/permissive-2-0/).
 © Overture Maps Foundation contributors.
+
+## Stroke index (2026-09-28)
+
+Each course carries an optional `strokeIndexSourceRaw`: `"osm"` when the mappers'
+`handicap` tags form a valid scorecard ranking, `"card"` when stamped from a
+published scorecard, `"default"` when neither is available. With `"default"`
+every hole's `handicap` is `0`, meaning "no stroke index", never a guessed ranking.
+Courses with no hole routing in OSM ship as distances-only (`mappingRaw:
+"distancesOnly"`); guessed routing is never published.
