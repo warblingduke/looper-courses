@@ -31,3 +31,11 @@ published scorecard, `"default"` when neither is available. With `"default"`
 every hole's `handicap` is `0`, meaning "no stroke index", never a guessed ranking.
 Courses with no hole routing in OSM ship as distances-only (`mappingRaw:
 "distancesOnly"`); guessed routing is never published.
+
+## Coverage (2026-09-28)
+
+US and Great Britain, plus Canada, Germany, Australia, France, New Zealand,
+Ireland, the Netherlands, Sweden, Spain, Denmark, Japan, Finland, Switzerland,
+Austria, Norway, Italy, South Africa, Belgium, Portugal and South Korea —
+compiled from Geofabrik country extracts of OpenStreetMap. Packs over 300 KB
+that were never hosted before are held until the compact pack format ships.
