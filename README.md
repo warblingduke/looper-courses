@@ -33,6 +33,13 @@ then the earlier US naming run. Courses with none of those read "Golf course nea
 <town>". Unnamed extra courses at a facility get a plain descriptor such as
 "9-hole course (par 36)". A raw OpenStreetMap id is never used as a name.
 
+## Course names inside multi-course facilities (2026-10-04)
+
+Courses at multi-course facilities carry their real names where OpenStreetMap
+course tags, a named OpenStreetMap course outline, or an OpenGolfAPI scorecard
+(Open Database License) identifies them decisively — see `NAMES-2026-10-04.md`.
+Scorecard data © OpenGolfAPI contributors, ODbL 1.0.
+
 ## Stroke index (2026-09-28)
 
 Each course carries an optional `strokeIndexSourceRaw`: `"osm"` when the mappers'
